@@ -1,0 +1,55 @@
+{
+  "workbench.colorTheme": "Nord",
+  "workbench.settings.editor": "json",
+  // EDITOR
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "solid",
+  "files.trimTrailingWhitespace": true,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 25,
+  "editor.letterSpacing": 0.5,
+  "editor.cursorWidth": 5,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "JetBrains Mono,Operator Mono Medium,Fira Code",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.renderIndentGuides": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 17,
+  "explorer.openEditors.visible": 0,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#0059ffa4",
+    "[Cobalt2]": {
+      "tab.activeBackground": "#077bf73e",
+      "gitDecoration.ignoredResourceForeground": "#706e6e"
+    }
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.trimFinalNewlines": true,
+  "files.associations": {
+    "Dockerfile_*": "dockerfile"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "java.semanticHighlighting.enabled": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "editor.suggestSelection": "first",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "deno.enable": false,
+  "window.zoomLevel": 0,
+  "breadcrumbs.enabled": false
+}
