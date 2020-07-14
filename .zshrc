@@ -100,9 +100,12 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
+
+# Config
 alias zshconfig="code ~/.zshrc"
+# Z script
 alias go=z
+# Copy stdout to clipboard
 alias c='xclip -selection clipboard'
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 [ -z "$TMUX"  ] && { tmux attach || exec tmux new-session;}
