@@ -3,6 +3,18 @@
     {
       "class": "copyq",
       "title": "CopyQ"
+    },
+    {
+      "class": "Kazam",
+      "title": "Kazam"
+    },
+    {
+      "class": "VirtualBox Manager",
+      "title": "VirtualBox Manager"
+    },
+    {
+      "class": "zoom",
+      "title": "Zoom Cloud Meetings"
     }
   ],
   "log_on_focus": false
