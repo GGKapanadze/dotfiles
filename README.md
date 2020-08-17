@@ -6,3 +6,4 @@
 - tmux https://github.com/tmux/tmux
 - alacritty https://github.com/alacritty/alacritty
 - VSCode https://github.com/microsoft/vscode
+- Pop-Shell https://github.com/pop-os/shell
