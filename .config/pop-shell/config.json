@@ -15,6 +15,10 @@
     {
       "class": "zoom",
       "title": "Zoom Cloud Meetings"
+    },
+    {
+      "class": "Slack",
+      "title": "Slack"
     }
   ],
   "log_on_focus": false
