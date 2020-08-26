@@ -107,5 +107,7 @@ alias zshconfig="code ~/.zshrc"
 alias go=z
 # Copy stdout to clipboard
 alias c='xclip -selection clipboard'
+# Ytop
+alias yt='ytop -c vice -b'
 
 [ -z "$TMUX"  ] && { tmux attach || exec tmux new-session;}
