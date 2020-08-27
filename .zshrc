@@ -108,6 +108,6 @@ alias go=z
 # Copy stdout to clipboard
 alias c='xclip -selection clipboard'
 # Ytop
-alias yt='ytop -c vice -b'
+alias yt='ytop -c vice'
 
 [ -z "$TMUX"  ] && { tmux attach || exec tmux new-session;}
