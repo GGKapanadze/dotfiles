@@ -23,6 +23,10 @@
     {
       "class": "Microsoft Teams - Preview",
       "title": "Microsoft Teams - Preview"
+    },
+    {
+      "class": "discord",
+      "title": "Discord"
     }
   ],
   "log_on_focus": false
