@@ -1,10 +1,10 @@
 {
-  "workbench.colorTheme": "Nord",
   "workbench.settings.editor": "json",
+  "workbench.editor.enablePreview": true,
   // EDITOR
   "editor.tabSize": 2,
   "editor.cursorStyle": "line",
-  "editor.cursorBlinking": "solid",
+  "editor.cursorBlinking": "blink",
   "files.trimTrailingWhitespace": true,
   "editor.fontLigatures": true,
   "editor.lineHeight": 25,
@@ -12,17 +12,19 @@
   "editor.cursorWidth": 5,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "editor.fontFamily": "JetBrains Mono,Operator Mono Medium,Fira Code",
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSaveMode": "modifications",
+  "editor.fontFamily": "Operator Mono Medium,JetBrains Mono, Fira Code",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.renderIndentGuides": true,
-  "editor.renderWhitespace": "boundary",
+  // "editor.renderWhitespace": "boundary",
   "editor.minimap.enabled": false,
-  "editor.fontSize": 17,
+  "editor.fontSize": 19,
   "explorer.openEditors.visible": 0,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.colorCustomizations": {
-    "statusBar.background": "#0059ffa4",
     "[Cobalt2]": {
+      "statusBar.background": "#0059ffa4",
       "tab.activeBackground": "#077bf73e",
       "gitDecoration.ignoredResourceForeground": "#706e6e"
     }
@@ -39,8 +41,7 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.iconTheme": "material-icon-theme",
-  "java.semanticHighlighting.enabled": true,
+  "workbench.iconTheme": "file-icons",
   "files.exclude": {
     "**/.classpath": true,
     "**/.project": true,
@@ -51,5 +52,24 @@
   "typescript.preferences.importModuleSpecifier": "relative",
   "deno.enable": false,
   "window.zoomLevel": 0,
-  "breadcrumbs.enabled": false
+  "breadcrumbs.enabled": false,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Nord",
+  "cSpell.enabled": true,
+  "cSpell.language": "en",
+  "cSpell.enableFiletypes": ["vue"],
+  "cSpell.userWords": ["gqlpagenation", "mixins", "nestjs", "typeorm"],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.linting.pylintArgs": ["--enable=E,W"],
+  "python.formatting.provider": "autopep8",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
