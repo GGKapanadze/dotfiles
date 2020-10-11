@@ -6,5 +6,9 @@
   {
     "key": "shift+alt+j",
     "command": "workbench.action.splitEditorDown"
-  }
+  },
+  {
+    "key": "ctrl+space l",
+    "command": "eslint.executeAutofix"
+  },
 ]
