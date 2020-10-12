@@ -12,12 +12,19 @@
   "editor.cursorWidth": 5,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSaveMode": "modifications",
   "editor.fontFamily": "Operator Mono Medium,JetBrains Mono, Fira Code",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.renderIndentGuides": true,
+  // "editor.renderWhitespace": "boundary",
   "editor.minimap.enabled": false,
   "editor.fontSize": 19,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.suggestSelection": "first",
+  "eslint.validate": ["javascript"],
   "explorer.openEditors.visible": 0,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.colorCustomizations": {
@@ -46,7 +53,6 @@
     "**/.settings": true,
     "**/.factorypath": true
   },
-  "editor.suggestSelection": "first",
   "typescript.preferences.importModuleSpecifier": "relative",
   "deno.enable": false,
   "window.zoomLevel": 0,
