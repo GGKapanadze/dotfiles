@@ -23,6 +23,9 @@
     {
       "class": "discord",
       "title": "Discord"
+    },
+    {
+      "class": "Microsoft Teams - Preview"
     }
   ],
   "log_on_focus": false
