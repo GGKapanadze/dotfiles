@@ -26,6 +26,9 @@
     },
     {
       "class": "Microsoft Teams - Preview"
+    },
+    {
+      "class": "Steam"
     }
   ],
   "log_on_focus": false
