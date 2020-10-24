@@ -29,6 +29,9 @@
     },
     {
       "class": "Steam"
+    },
+    {
+      "class": "stacer"
     }
   ],
   "log_on_focus": false
