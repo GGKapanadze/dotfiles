@@ -1,14 +1,34 @@
 [
   {
-    "key": "shift+alt+l",
+    "key": "ctrl+space shift+\\",
     "command": "workbench.action.splitEditorRight"
   },
   {
-    "key": "shift+alt+j",
+    "key": "ctrl+space -",
     "command": "workbench.action.splitEditorDown"
   },
   {
     "key": "ctrl+space l",
     "command": "eslint.executeAutofix"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+space s",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+space",
+    "command": "-editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
   },
 ]
