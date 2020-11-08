@@ -14,7 +14,7 @@ export TERM=xterm-256color
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="ys"
-ZSH_THEME="robbyrussell"
+ZSH_THEME="jnrowe"
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
@@ -109,4 +109,14 @@ alias go=z
 alias c='xclip -selection clipboard'
 # Ytop
 alias yt='ytop -c monokai'
+
+# ls aliases
+alias l='exa -lbF --git'                                               # list, size, type, git
+alias ls='exa'                                                         # ls
+alias ll='exa -lbGF --git'                                             # long list
+alias llm='exa -lbGd --git --sort=modified'                            # long list, modified date sort
+alias la='exa -lbhHigUmuSa --time-style=long-iso --git --color-scale'  # all list
+alias lx='exa -lbhHigUmuSa@ --time-style=long-iso --git --color-scale' # all + extended list
+
+
 [ -z "$TMUX"  ] && { tmux attach || exec tmux new-session;}
