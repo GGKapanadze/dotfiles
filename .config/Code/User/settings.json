@@ -16,6 +16,7 @@
   "editor.formatOnSaveMode": "modifications",
   "editor.fontFamily": "Operator Mono Medium,JetBrains Mono, Fira Code",
   "editor.cursorSmoothCaretAnimation": true,
+  "editor.selectionClipboard": true,
   "editor.renderIndentGuides": true,
   "editor.minimap.enabled": false,
   "editor.fontSize": 19,
