@@ -32,6 +32,19 @@
     },
     {
       "class": "stacer"
+    },
+    {
+      "class": "Evolution-alarm-notify",
+      "title": "Reminders"
+    },
+    {
+      "class": "TelegramDesktop"
+    },
+    {
+      "class": "GParted"
+    },
+    {
+      "class": "Popsicle-gtk"
     }
   ],
   "log_on_focus": false
