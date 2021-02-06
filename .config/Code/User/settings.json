@@ -52,10 +52,16 @@
   "window.zoomLevel": 0,
   "breadcrumbs.enabled": false,
   "workbench.colorTheme": "Nord",
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.decorations.badges": true,
   "cSpell.enabled": true,
   "cSpell.language": "en",
   "cSpell.enableFiletypes": ["vue"],
   "cSpell.userWords": ["gqlpagenation", "mixins", "nestjs", "typeorm"],
   "python.linting.pylintArgs": ["--enable=E,W"],
-  "python.formatting.provider": "autopep8"
+  "python.formatting.provider": "autopep8",
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.defaultDateFormat": null,
+  "todo-tree.tree.showScanModeButton": false
 }
