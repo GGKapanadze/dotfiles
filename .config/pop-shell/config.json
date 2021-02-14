@@ -48,6 +48,9 @@
     },
     {
       "class": "Gnome-tweaks"
+    },
+    {
+      "class": "Gnome-calculator"
     }
   ],
   "log_on_focus": false,
