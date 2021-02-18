@@ -51,6 +51,9 @@
     },
     {
       "class": "Gnome-calculator"
+    },
+    {
+      "class": "Mailspring"
     }
   ],
   "log_on_focus": false,
