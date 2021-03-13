@@ -13,13 +13,13 @@ discharging_symbol = "💀"
 symbol = "🌱 "
 
 [git_status]
-conflicted = "🏳"
+conflicted = "👥"
 ahead = "🏎💨"
-behind = "😰"
+behind = "⏪"
 diverged = "😵"
 untracked = "🤷‍"
 stashed = "📦"
 modified = "📝"
-staged = '[ ➕\($count\)](green)'
+staged = '[ ➕ \($count\)](yellow)'
 renamed = "👅"
-deleted = "🗑"
+deleted = "🔥"
