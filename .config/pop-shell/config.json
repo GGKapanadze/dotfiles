@@ -38,7 +38,7 @@
       "title": "Reminders"
     },
     {
-      "class": "TelegramDesktop"
+      "class": "Mailspring"
     },
     {
       "class": "GParted"
@@ -53,9 +53,19 @@
       "class": "Gnome-calculator"
     },
     {
-      "class": "Mailspring"
+      "class": "TelegramDesktop"
+    },
+    {
+      "class": "Clockify"
+    },
+    {
+      "class": "Variety"
+    },
+    {
+      "class": "Slack"
     }
   ],
+  "skiptaskbarhidden": [],
   "log_on_focus": false,
   "move_pointer_on_switch": false,
   "default_pointer_position": "TOP_LEFT"

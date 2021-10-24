@@ -1,11 +1,17 @@
 {
   "workbench.settings.editor": "json",
   "workbench.editor.enablePreview": true,
-  // EDITOR
+  "workbench.colorTheme": "Nord",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#EBCB8B",
+    "statusBar.foreground": "#434C5E"
+  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.tabSize": 2,
   "editor.cursorStyle": "line",
+  "breadcrumbs.enabled": false,
   "editor.cursorBlinking": "blink",
+  "editor.cursorSurroundingLines": 18,
   "files.trimTrailingWhitespace": true,
   "editor.fontLigatures": true,
   "editor.lineHeight": 25,
@@ -14,26 +20,18 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "modifications",
-  "editor.fontFamily": "Operator Mono Medium,JetBrains Mono, Fira Code",
+  "editor.fontFamily": "JetBrains Mono Medium, Fira Code",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.selectionClipboard": true,
   "editor.renderIndentGuides": true,
   "editor.minimap.enabled": false,
-  "editor.fontSize": 19,
+  "editor.fontSize": 17,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
   "editor.suggestSelection": "first",
   "eslint.validate": ["javascript"],
   "explorer.openEditors.visible": 0,
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.colorCustomizations": {
-    "[Cobalt2]": {
-      "statusBar.background": "#0059ffa4",
-      "tab.activeBackground": "#077bf73e",
-      "gitDecoration.ignoredResourceForeground": "#706e6e"
-    }
-  },
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 1000,
   "files.trimFinalNewlines": true,
@@ -41,6 +39,7 @@
     "Dockerfile_*": "dockerfile"
   },
   "workbench.iconTheme": "file-icons",
+  "workbench.sideBar.location": "right",
   "files.exclude": {
     "**/.classpath": true,
     "**/.project": true,
@@ -49,19 +48,76 @@
   },
   "typescript.preferences.importModuleSpecifier": "relative",
   "deno.enable": false,
-  "window.zoomLevel": 0,
-  "breadcrumbs.enabled": false,
-  "workbench.colorTheme": "Nord",
   "workbench.editor.wrapTabs": true,
   "workbench.editor.decorations.colors": true,
   "workbench.editor.decorations.badges": true,
   "cSpell.enabled": true,
   "cSpell.language": "en",
   "cSpell.enableFiletypes": ["vue"],
-  "cSpell.userWords": ["gqlpagenation", "mixins", "nestjs", "typeorm"],
+  "cSpell.userWords": [
+    "commitlint",
+    "drups",
+    "drupsio",
+    "Giorgi",
+    "gqlpagenation",
+    "influxdata",
+    "jsonb",
+    "Kapanadze",
+    "keyof",
+    "mixins",
+    "nestjs",
+    "orgs",
+    "repos",
+    "skyworker",
+    "typeorm",
+    "zuri"
+  ],
   "python.linting.pylintArgs": ["--enable=E,W"],
   "python.formatting.provider": "autopep8",
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.defaultDateFormat": null,
-  "todo-tree.tree.showScanModeButton": false
+  "todo-tree.tree.showScanModeButton": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "python.linting.pylintPath": "/usr/bin/pylint",
+  "vim.smartRelativeLine": true,
+  "markdown-preview-enhanced.previewTheme": "github-light.css",
+
+  // Vim
+  "vim.easymotion": true,
+  "vim.easymotionDimBackground": true,
+  "vim.easymotionMarkerForegroundColorOneChar": "#BF616A",
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.searchHighlightColor": "#EBCB8B",
+  "vim.searchHighlightTextColor": "#2E3440",
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["revealInExplorer"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  }
 }

@@ -1,20 +1,16 @@
 set fish_greeting
 
+# Bindings
+bind \cR 'peco_history'
 
-# Z script
+# Aliases
 alias go=z
-# Copy stdout to clipboard
 alias c='xclip -selection clipboard'
-# Ytop
 alias yt='ytop -c monokai'
-
-# ls aliases
-alias l='exa -lbF --git'                                               # list, size, type, git
-alias ls='exa'                                                         # ls
-alias ll='exa -lbGF --git'                                             # long list
-alias la='exa -lbhHigUmuSa --time-style=long-iso --git --color-scale'  # all list
-alias lx='exa -lbhHigUmuSa@ --time-style=long-iso --git --color-scale' # all + extended list
-
+alias vim='nvim'
+alias ls='exa'
+alias ll='exa -lga --icons'
+alias lx='exa -lga --icons --level=2 --tree'
 
 
 starship init fish | source
