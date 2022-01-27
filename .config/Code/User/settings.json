@@ -9,9 +9,9 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.tabSize": 2,
   "editor.cursorStyle": "line",
-  "breadcrumbs.enabled": false,
   "editor.cursorBlinking": "blink",
   "editor.cursorSurroundingLines": 18,
+  "breadcrumbs.enabled": false,
   "files.trimTrailingWhitespace": true,
   "editor.fontLigatures": true,
   "editor.lineHeight": 25,
@@ -55,6 +55,7 @@
   "cSpell.language": "en",
   "cSpell.enableFiletypes": ["vue"],
   "cSpell.userWords": [
+    "chakra",
     "commitlint",
     "drups",
     "drupsio",
@@ -119,5 +120,11 @@
   "vim.handleKeys": {
     "<C-a>": false,
     "<C-f>": false
-  }
+  },
+  "vscode-edge-devtools.mirrorEdits": true,
+  "remoteHub.commitDirectlyWarning": "off",
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "liveServer.settings.donotShowInfoMsg": true
 }
