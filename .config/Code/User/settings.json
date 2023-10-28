@@ -1,95 +1,78 @@
 {
+  // # Workbench
   "workbench.settings.editor": "json",
   "workbench.editor.enablePreview": true,
   "workbench.colorTheme": "Nord",
+  "workbench.layoutControl.enabled": false,
+  "workbench.sideBar.location": "right",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 8,
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.decorations.badges": true,
   "workbench.colorCustomizations": {
     "statusBar.background": "#EBCB8B",
     "statusBar.foreground": "#434C5E"
   },
+
+  // # BreadCrumbs
+  "breadcrumbs.enabled": false,
+
+  // # Editor
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.tabSize": 2,
-  "editor.cursorStyle": "line",
   "editor.cursorBlinking": "blink",
-  "editor.cursorSurroundingLines": 18,
-  "breadcrumbs.enabled": false,
-  "files.trimTrailingWhitespace": true,
-  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontFamily": "Victor Mono, JetBrains Mono, Fira Code",
+  "editor.fontSize": 16,
   "editor.lineHeight": 25,
-  "editor.letterSpacing": 0.5,
+  "editor.letterSpacing": 0.4,
   "editor.cursorWidth": 5,
+  "editor.cursorSurroundingLines": 18,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "modifications",
-  "editor.fontFamily": "JetBrains Mono Medium, Fira Code",
-  "editor.cursorSmoothCaretAnimation": true,
-  "editor.selectionClipboard": true,
-  "editor.renderIndentGuides": true,
-  "editor.minimap.enabled": false,
-  "editor.fontSize": 17,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
   "editor.suggestSelection": "first",
-  "eslint.validate": ["javascript"],
-  "explorer.openEditors.visible": 0,
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 1000,
-  "files.trimFinalNewlines": true,
-  "files.associations": {
-    "Dockerfile_*": "dockerfile"
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "entity.name.type.class",
+          "keyword",
+          "constant",
+          "storage.modifier",
+          "storage.type.class.js"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
   },
-  "workbench.iconTheme": "file-icons",
-  "workbench.sideBar.location": "right",
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
-  "typescript.preferences.importModuleSpecifier": "relative",
-  "deno.enable": false,
-  "workbench.editor.wrapTabs": true,
-  "workbench.editor.decorations.colors": true,
-  "workbench.editor.decorations.badges": true,
-  "cSpell.enabled": true,
-  "cSpell.language": "en",
-  "cSpell.enableFiletypes": ["vue"],
-  "cSpell.userWords": [
-    "chakra",
-    "commitlint",
-    "drups",
-    "drupsio",
-    "Giorgi",
-    "gqlpagenation",
-    "influxdata",
-    "jsonb",
-    "Kapanadze",
-    "keyof",
-    "mixins",
-    "nestjs",
-    "orgs",
-    "repos",
-    "skyworker",
-    "typeorm",
-    "zuri"
-  ],
-  "python.linting.pylintArgs": ["--enable=E,W"],
-  "python.formatting.provider": "autopep8",
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.defaultDateFormat": null,
-  "todo-tree.tree.showScanModeButton": false,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "python.linting.pylintPath": "/usr/bin/pylint",
-  "vim.smartRelativeLine": true,
-  "markdown-preview-enhanced.previewTheme": "github-light.css",
+  "editor.inlineSuggest.showToolbar": "always",
+  "editor.linkedEditing": true,
 
-  // Vim
-  "vim.easymotion": true,
-  "vim.easymotionDimBackground": true,
-  "vim.easymotionMarkerForegroundColorOneChar": "#BF616A",
+  // # Vim
+  "vim.smartRelativeLine": true,
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
   "vim.searchHighlightColor": "#EBCB8B",
@@ -121,10 +104,59 @@
     "<C-a>": false,
     "<C-f>": false
   },
-  "vscode-edge-devtools.mirrorEdits": true,
-  "remoteHub.commitDirectlyWarning": "off",
-  "[dotenv]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
+
+  // # Files
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.associations": {
+    "Dockerfile_*": "dockerfile",
+    ".env*": "shellscript"
   },
-  "liveServer.settings.donotShowInfoMsg": true
+
+  // # Language Specific
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+
+  // # Github
+  "github.copilot.enable": {
+    "*": true
+  },
+
+  // # CSpell
+  "cSpell.enabled": true,
+  "cSpell.language": "en",
+
+  // # Rest
+  "terminal.integrated.env.osx": {},
+  "console-ninja.featureSet": "Community",
+  "console-ninja.fontSize": 15,
+  "workbench.productIconTheme": "icons-carbon",
+  "auto-rename-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "php",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
 }
