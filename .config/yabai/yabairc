@@ -1,0 +1,50 @@
+yabai -m config window_border                off
+# don't automatically rebalance windows
+yabai -m config auto_balance                 off
+# swap windows if moved with mouse
+yabai -m config mouse_action1                move
+# resize windows if resized with mouse
+yabai -m config mouse_action2                resize
+yabai -m config mouse_drop_action            swap
+
+
+yabai -m config active_window_opacity        1.0
+yabai -m config normal_window_opacity        0.90
+yabai -m config split_ratio                  0.50
+yabai -m config mouse_modifier               fn
+
+# general space settings
+yabai -m config layout                       bsp
+yabai -m config --space 5 layout             float
+yabai -m config top_padding                  10
+yabai -m config bottom_padding               10
+yabai -m config left_padding                 10
+yabai -m config right_padding                10
+yabai -m config window_gap                   10
+
+yabai -m config active_window_border_topmost off
+yabai -m config window_shadow                on
+yabai -m config window_opacity               off
+yabai -m config window_border_width          3
+#yabai -m config active_window_border_color   0xffebcb8b
+yabai -m config active_window_border_color   0xffd8dee9
+#yabai -m config normal_window_border_color   0xffaaaaaa
+
+yabai -m rule --add app="^System Settings$" manage=off layer=above border=off
+yabai -m rule --add app="^Slack$" manage=off layer=above border=off
+yabai -m rule --add app="^Telegram$" manage=off layer=above border=off
+yabai -m rule --add app="^Spark$" manage=off layer=above
+yabai -m rule --add app="^Messages$" manage=off layer=above
+yabai -m rule --add app="^Docker Desktop$" manage=off layer=above
+yabai -m rule --add app="^Calendar$" manage=off layer=above
+yabai -m rule --add app="^Steam$" manage=off layer=above border=off
+yabai -m rule --add app="^App Store$" manage=off layer=above
+yabai -m rule --add app="^JetBrains Toolbox$" manage=off layer=above
+yabai -m rule --add app="^Wolt$" manage=off layer=above
+yabai -m rule --add app="^Numi$" manage=off layer=above
+yabai -m rule --add app="^1Password$" manage=off layer=above
+yabai -m rule --add app="^NordVPN$" manage=off layer=above
+yabai -m rule --add app="^Flow$" manage=off layer=above
+yabai -m rule --add app="^AppCleaner$" manage=off layer=above
+yabai -m rule --add app="^FaceTime$" manage=off layer=above
+
