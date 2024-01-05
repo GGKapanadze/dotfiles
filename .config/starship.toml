@@ -12,10 +12,12 @@ discharging_symbol = "💀"
 
 
 [git_branch]
+disabled = true
 symbol = "🌱 "
 
 
 [git_status]
+disabled=true
 conflicted = "👥"
 ahead = "🏎💨"
 behind = "⏪"
