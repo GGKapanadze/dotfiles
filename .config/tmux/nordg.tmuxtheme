@@ -1,0 +1,17 @@
+BASE_YELLOW='#EBCB8B'
+CYAN_BLUE='cyan'
+BASE_WHITE='#ECEFF4'
+ARROW_ICON=''
+
+set -g status-style bg=default
+set -g status-left-length 200
+set -g status-left "#[fg=$CYAN_BLUE]#S $ARROW_ICON "
+set -g window-status-format "#[fg=$BASE_WHITE]#{?#{==:#{window_index},1},,|} #I #W"
+set -g window-status-current-format "#{?#{==:#{window_index},1},,|} #[fg=$BASE_YELLOW]#I #W"
+
+set -g status-right '#(gitmux -cfg $HOME/.config/tmux/tmux-git.conf "#{pane_current_path}")'
+set -g mode-style bg=default,fg=yellow
+set -g pane-active-border-style 'fg=#EBCB8B,bg=default'
+set -g pane-border-style fg=brightblack,bg=default
+set -g message-style 'bg=brightblack,fg=#EBCB8B'
+set -g message-command-style 'bg=brightblack,fg=#EBCB8B'
