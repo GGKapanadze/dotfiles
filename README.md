@@ -8,3 +8,4 @@
 - VSCode https://github.com/microsoft/vscode
 - Pop-Shell https://github.com/pop-os/shell (Floating apps)
 - Starship https://starship.rs
+- lazygit https://github.com/jesseduffield/lazygit
