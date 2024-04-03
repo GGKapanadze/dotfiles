@@ -30,21 +30,19 @@ yabai -m config window_border_width          3
 yabai -m config active_window_border_color   0xffd8dee9
 #yabai -m config normal_window_border_color   0xffaaaaaa
 
-yabai -m rule --add app="^System Settings$" manage=off layer=above border=off
-yabai -m rule --add app="^Slack$" manage=off layer=above border=off
-yabai -m rule --add app="^Telegram$" manage=off layer=above border=off
-yabai -m rule --add app="^Spark$" manage=off layer=above
-yabai -m rule --add app="^Messages$" manage=off layer=above
-yabai -m rule --add app="^Docker Desktop$" manage=off layer=above
-yabai -m rule --add app="^Calendar$" manage=off layer=above
-yabai -m rule --add app="^Steam$" manage=off layer=above border=off
-yabai -m rule --add app="^App Store$" manage=off layer=above
-yabai -m rule --add app="^JetBrains Toolbox$" manage=off layer=above
-yabai -m rule --add app="^Wolt$" manage=off layer=above
-yabai -m rule --add app="^Numi$" manage=off layer=above
-yabai -m rule --add app="^1Password$" manage=off layer=above
-yabai -m rule --add app="^NordVPN$" manage=off layer=above
-yabai -m rule --add app="^Flow$" manage=off layer=above
-yabai -m rule --add app="^AppCleaner$" manage=off layer=above
-yabai -m rule --add app="^FaceTime$" manage=off layer=above
+yabai -m rule --add app="^System Settings$" manage=off sub-layer=above border=off
+yabai -m rule --add app="^Slack$" manage=off sub-layer=above border=off
+yabai -m rule --add app="^Telegram$" manage=off sub-layer=above border=off
+yabai -m rule --add app="^Spark$" manage=off sub-layer=above
+yabai -m rule --add app="^Messages$" manage=off sub-layer=above
+yabai -m rule --add app="^Calendar$" manage=off sub-layer=above
+yabai -m rule --add app="^Steam$" manage=off sub-layer=above border=off
+yabai -m rule --add app="^App Store$" manage=off sub-layer=above
+yabai -m rule --add app="^JetBrains Toolbox$" manage=off sub-layer=above
+yabai -m rule --add app="^Wolt$" manage=off sub-layer=above
+yabai -m rule --add app="^Numi$" manage=off sub-layer=above
+yabai -m rule --add app="^1Password$" manage=off sub-layer=above
+yabai -m rule --add app="^AppCleaner$" manage=off sub-layer=above
+yabai -m rule --add app="^FaceTime$" manage=off sub-layer=above
+yabai -m rule --add app="^Todoist$" manage=off sub-layer=above
 
