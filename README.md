@@ -9,4 +9,3 @@
 - Pop-Shell https://github.com/pop-os/shell (Floating apps)
 - Starship https://starship.rs
 - lazygit https://github.com/jesseduffield/lazygit
-- fish https://github.com/fish-shell/fish-shell
