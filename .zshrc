@@ -21,7 +21,9 @@ ZSH_TMUX_AUTOSTART=true
 
 zstyle ':omz:update' frequency 7
 
-plugins=(git tmux zsh-autosuggestions zsh-syntax-highlighting)
+test -r "~/.dir_colors" && eval $(dircolors ~/.dir_colors)
+
+plugins=(git tmux zsh-autosuggestions zsh-syntax-highlighting ssh-agent)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -44,7 +46,10 @@ alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
 alias vim='nvim'
+alias pn='pnpm'
 
 eval "$(atuin init zsh)"
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
+
+PATH=~/.console-ninja/.bin:$PATH
