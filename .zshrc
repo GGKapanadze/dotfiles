@@ -19,7 +19,7 @@ export NVM_DIR="$HOME/.nvm"
 ZSH_THEME="robbyrussell"
 ZSH_TMUX_AUTOSTART=true
 
-zstyle ':omz:update' frequency 7
+zstyle ':omz:update' frequency 10
 
 test -r "~/.dir_colors" && eval $(dircolors ~/.dir_colors)
 
