@@ -1,6 +1,9 @@
 # ZSH
 export ZSH="$HOME/.oh-my-zsh"
 
+ZSH_THEME="robbyrussell"
+ZSH_TMUX_AUTOSTART=true
+
 #PNPM
 export PNPM_HOME="/Users/ggkapanadze/Library/pnpm"
 case ":$PATH:" in
@@ -15,9 +18,6 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
-
-ZSH_THEME="robbyrussell"
-ZSH_TMUX_AUTOSTART=true
 
 zstyle ':omz:update' frequency 10
 
@@ -34,6 +34,7 @@ function run_lazygit() {
 
 # Create a zsh widget that runs the function
 zle -N run_lazygit
+
 # Bind the widget to ctrl+g
 bindkey '^G' run_lazygit
 
