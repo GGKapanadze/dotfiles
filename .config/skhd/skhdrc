@@ -32,7 +32,7 @@ ctrl + alt - l : \
     yabai -m window --resize right:100:0 ; \
     yabai -m window --resize left:100:0
 
-alt - f         : yabai -m window --toggle zoom-fullscreen
+alt - f         :  yabai -m window --toggle zoom-fullscreen
 
 shift + alt - g : yabai -m window --toggle float;\
                 yabai -m window --grid 6:6:0:0:5:6;\
