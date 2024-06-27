@@ -42,4 +42,4 @@ yabai -m rule --add app="^Todoist$" manage=off sub-layer=above
 yabai -m rule --add app="^Raycast$" manage=off sub-layer=above
 
 
-borders active_color=0xffebcb8b width=6.0 &
+borders active_color=0xffebcb8b width=7.0 &
