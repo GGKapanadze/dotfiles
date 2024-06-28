@@ -11,20 +11,5 @@ charging_symbol = "⚡️"
 discharging_symbol = "💀"
 
 
-[git_branch]
-disabled = true
-symbol = "🌱 "
 
 
-[git_status]
-disabled=true
-conflicted = "👥"
-ahead = "🏎💨"
-behind = "⏪"
-diverged = "😵"
-untracked = "🤷‍"
-stashed = "📦"
-modified = "📝"
-staged = '[ ➕ \($count\)](yellow)'
-renamed = "👅"
-deleted = "🔥"
