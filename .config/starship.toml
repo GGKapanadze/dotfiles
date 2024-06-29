@@ -10,6 +10,9 @@ full_symbol = "🔋"
 charging_symbol = "⚡️"
 discharging_symbol = "💀"
 
+[git_branch]
+disabled = true
+
 
 
 
