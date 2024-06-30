@@ -13,6 +13,8 @@ discharging_symbol = "💀"
 [git_branch]
 disabled = true
 
+[git_status]
+disabled = true 
 
 
 
