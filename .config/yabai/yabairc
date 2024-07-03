@@ -40,6 +40,7 @@ yabai -m rule --add app="^AppCleaner$" manage=off sub-layer=above
 yabai -m rule --add app="^FaceTime$" manage=off sub-layer=above
 yabai -m rule --add app="^Todoist$" manage=off sub-layer=above
 yabai -m rule --add app="^Raycast$" manage=off sub-layer=above
+yabai -m rule --add app="^Gemini$" manage=off sub-layer=above
 
 
 borders active_color=0xffebcb8b width=7.0 &
